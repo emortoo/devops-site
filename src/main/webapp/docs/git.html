@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <title>UIkit</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="UIkit">
+        <meta property="og:description" content="UIkit, a lightweight and modular front-end framework for developing fast and powerful web interfaces.">
+        <meta property="og:url" content="https://getuikit.com/">
+        <meta property="og:site_name" content="UIkit">
+        <meta property="og:image" content="https://getuikit.com/images/uikit-meta.png">
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="preload" href="fonts/ProximaNova-Reg-webfont.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/ProximaNova-Light-webfont.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="assets/uikit/dist/css?{{BUILD}}">
+        <link rel="stylesheet" href="../css/theme.css?lfs2wpe7">
+        <link rel="stylesheet" href="../css/docs.css?lfs2wpe7">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.6.2/marked.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.5.1/vue-router.min.js" defer></script>
+        <script src="assets/uikit/dist/js/uikit.min.js?{{BUILD}}" defer></script>
+        <script src="assets/uikit/dist/js/uikit-icons.min.js?{{BUILD}}" defer></script>
+        <script src="app/main.min.js?{{BUILD}}" defer></script>
+    </head>
+    
+    <body>
+        <body data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
+            <div class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed" uk-sticky="media: 960; " style="position: fixed; width: 3440px; margin-top: 0px !important; top: 0px;">
+                <div class="uk-container uk-container-expand"><nav class="uk-navbar" uk-navbar=""><div class="uk-navbar-left"><a class="uk-navbar-item uk-logo" href="/" aria-label="Back to Home" tabindex="0"><img src="/images/devops.svg" class="uk-margin-small-right" width="48" height="54" alt="devops">
+                                DevOps
+                            </a></div>
+                        <div class="uk-navbar-center">
+                            <ul class="uk-navbar-nav uk-visible@m">
+                            <li><a href="/docs/linux.html">Linux</a></li>
+                            <li><a href="/docs/git.html">Git &amp; GitHub </a></li>
+                            <li><a href="/docs/maven.html">Maven</a></li>
+                            <li><a href="/docs/nexus.html">Nexus</a></li>
+                            <li><a href="/docs/tomcat.html">Tomcat &amp; JBoss </a></li>
+                            <li><a href="/docs/nginx.html">Nginx</a></li>
+                            <li><a href="/docs/jenkins.html">Jenkins</a></li>
+                            <li><a href="/docs/ansible.html">Ansible</a></li>
+                            <li><a href="/docs/docker.html">Docker</a></li>
+                            <li><a href="/docs/kubernetes.html">Kubernetes</a></li>
+                            <li><a href="/docs/terraform.html">Terraform</a></li>
+                            <li><a href="/docs/cloud-services.html">Cloud Services</a></li>
+                            <li><a href="/docs/python.html">Python</a></li>
+                            <li><a href="/docs/prometheus">Prometheus</a></li>
+                        </ul>
+            
+                            <!-- <div class="uk-navbar-item uk-visible@m"><a class="uk-button uk-button-default tm-button-default uk-icon" href="/download" tabindex="-1">Download <canvas uk-icon="download" width="20" height="20" class="uk-icon" hidden=""></canvas><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" points="14,10 9.5,14.5 5,10"></polyline><rect x="3" y="17" width="13" height="1"></rect><line fill="none" stroke="#000" x1="9.5" y1="13.91" x2="9.5" y2="3"></line></svg></a></div>
+                            --> 
+                            <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" role="button" aria-label="Open menu" tabindex="-1"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><style>.uk-navbar-toggle-animate svg&gt;[class*=line-]{transition:.2s ease-in-out;transition-property:transform,opacity;transform-origin:center;opacity:1}.uk-navbar-toggle svg&gt;.line-3{opacity:0}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-3{opacity:1}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-2{transform:rotate(45deg)}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-3{transform:rotate(-45deg)}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-1,.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-4{opacity:0}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-1{transform:translateY(6px) scaleX(0)}.uk-navbar-toggle-animate[aria-expanded=true] svg&gt;.line-4{transform:translateY(-6px) scaleX(0)}</style><rect class="line-1" y="3" width="20" height="2"></rect><rect class="line-2" y="9" width="20" height="2"></rect><rect class="line-3" y="9" width="20" height="2"></rect><rect class="line-4" y="15" width="20" height="2"></rect></svg></a></div></nav></div></div><div class="uk-sticky-placeholder" style="height: 80px; width: 3440px; margin: 0px;">
+                        </div>
+                        <div class="uk-container uk-container-center">
+
+                           
+
+
+
+
+
+                            <div class="tm-middle">
+                                <div class="uk-container uk-container-center">
+                    
+                                    <div class="uk-grid" data-uk-grid-margin="">
+                                        <div class="tm-sidebar uk-width-1-4 uk-hidden-small uk-row-first">
+                    
+                                            <ul class="tm-nav uk-nav" data-uk-nav="">
+                    
+                                                <li class="uk-nav-header">Git &amp; GitHub </li>
+                                                <li class="uk-active"><a href="documentation_get-started.html">Get started</a></li>
+                                                <li><a href="documentation_how-to-customize.html">Installation</a></li>
+                                                <li><a href="documentation_layouts.html">Configuration</a></li>
+                                                <li><a href="documentation_layouts.html">Authentication</a></li>
+
+                                                <li class="uk-nav-header">Notes</li>
+                                                <li><a href="documentation_introduction-to-git.html">Introduction to Git</a></li>
+                                                <li><a href="documentation_working-with-git.html">Working with Git</a></li>
+                                                <li><a href="documentation_branching-and-merging.html">Branching and Merging</a></li>
+                                                <li><a href="documentation_collaborating-with-github.html">Collaborating with GitHub</a></li>
+                                                <li><a href="documentation_advanced-git-topics.html">Advanced Git Topics</a></li>
+                                                <li><a href="documentation_best-practices-and-tips.html">Cheat Sheet</a></li>
+
+                                                <li class="uk-nav-header">Exercise</li>
+                                                <li><a href="documentation_git-beginners.html">Beginner</a></li>
+                                                <li><a href="documentation_git-intermediate.html">Intermediate</a></li>
+                                                <li><a href="documentation_git-advanced.html">Advanced</a></li>
+                                                <li><a href="documentation_collaborating-with-github.html">practicals</a></li>
+                                                <li><a href="documentation_advanced-git-topics.html">Projects</a></li>
+
+                                                <li class="uk-nav-header">Commands</li>
+                                                <li><a href="documentation_basic-git-commands.html">Basic Git Commands</a></li>
+                                                <li><a href="documentation_working-with-git.html">Working with Git</a></li>
+                                                <li><a href="documentation_working-with-remote-repos.html">Working with Remote Repos</a></li>
+                                                <li><a href="documentation_collaborating-with-github.html">Collaborating with GitHub</a></li>
+                                                <li><a href="documentation_advanced-git-topics.html">Advanced Git Topics</a></li>
+                                                <li><a href="documentation_best-practices-and-tips.html">Collabrations</a></li>
+
+                                                <li class="uk-nav-header">Interview Questions</li>
+                                                <li><a href="documentation_introduction-to-git.html">Introduction to Git</a></li>
+                                                <li><a href="documentation_working-with-git.html">Working with Git</a></li>
+                                                <li><a href="documentation_branching-and-merging.html">Branching and Merging</a></li>
+                                                <li><a href="documentation_collaborating-with-github.html">Collaborating with GitHub</a></li>
+                                                <li><a href="documentation_advanced-git-topics.html">Advanced Git Topics</a></li>
+                                                <li><a href="documentation_best-practices-and-tips.html">JavaScript</a></li>
+                    
+                                            </ul>
+                    
+                                        </div>
+                                        <div class="tm-main uk-width-medium-3-4">
+                    
+                                            <article class="uk-article">
+
+                                                <h1>Git &amp; GitHub</h1>
+                    
+                                                <p class="uk-article-lead">Getting started with Git can seem daunting, but the following steps will guide you through the process:</p>
+                                                   <li>1. Download Git</li>
+                                                   <li>2. Install Git</li>
+                                                   <li>3. Configure Git </li> 
+                                                   <li>4. Create a new repository</li>
+                                                   <li>5. Add files to the repository</li>
+                                                   <li>6. Commit changes</li>
+                                                   <li>7. Create a remote repository</li>
+                                                   <li>8. Connect the remote repository</li>
+                                                   <li>9. Push changes to the remote repository: </li>
+
+                    
+                                                <hr class="uk-article-divider">
+                    
+                                                <h2 id="download-git"><a href="#download-git" class="uk-link-reset">Download Git</a></h2>
+                                                <p>Download Git from the official website <a href="https://git-scm.com/">GitHub</a> and follow the installation instructions</p>
+                                                <div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>url</th>
+                                                                <th>Operating system</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                            <td><code><a href="https://git-scm.com/download/mac">https://git-scm.com/download/mac</a></code></td>
+                                                            <td>MacOS</td>
+                                                            </tr>
+                                                            <tr>
+                                                            <td><code><a href="https://git-scm.com/download/mac">https://git-scm.com/download/win</a></code></td> 
+                                                            <td>Windows</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                
+                                                <hr class="uk-article-divider">
+
+                                                <h2 id="installing-git"><a href="#installing-git" class="uk-link-reset">Installing Git</a></h2>
+                                                <p>Install Git using command line for different operating systems</p>
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Operating system</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code># apt-get install git</code></td>
+                                                                <td>Debian/Ubuntu</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code># yum install git</code></td>
+                                                                <td>Red Hat Enterprise Linux, Oracle Linux, CentOS</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ brew install git</code></td>
+                                                                <td>MacOS</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>winget install --id Git.Git -e --source winget</code></td>
+                                                                <td>Powershell</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                    
+
+                                                <h2 id="configure-git"><a href="#configuring-git" class="uk-link-reset">Configuring Git</a></h2>
+                    
+                                                <p> Open a terminal or command prompt and configure Git with your name and email address using the following commands.</p>
+                    
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>git config --global user.name [Your name] </code></td>
+                                                                <td>Set the name associated with your git commits.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>git config --global user.email [Your-email@example.com]</code></td>
+                                                                <td>Set the email associated with your git commits.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                    
+                                                <p>OR</p>
+
+                                                <div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>git config --global --edit</code></td>
+                                                                <td>Edit the name associated with the git account.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>git config --global --list</code></td>
+                                                                <td>Display the current username and email associated with your git commits.</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                
+                                                <h2 id="creating-git-repo"><a href="#creating-git-repo" class="uk-link-reset">Creating a Git Repository</a></h2>
+                    
+                                                <p>Create a new folder on your computer and navigate to it in the terminal. Use the following command to initialize a new Git repository</p>
+                    
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ git init </code></td>
+                                                                <td>Initialize a new git repository</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>$ git clone [url]</code></td>
+                                                                <td>Clone/Copy a git repository from an online remote repository</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3 id="example"><a href="#example" class="tm-article-subtitle">Example</a></h3>
+                                                    <hr class="uk-article-divider">
+
+
+                                                    <h2 id="creating-git-repo"><a href="#creating-git-repo" class="uk-link-reset">Adding files</a></h2>
+                                                <p>Adding your first file to your Git repository</p>
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ git add [filename]</code></td>
+                                                                <td>Add [filename] to staging area</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>$ git add .</code></td>
+                                                                <td>Add all files to staging area</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3 id="example"><a href="#example" class="tm-article-subtitle">Example</a></h3>
+
+                                                </div>
+                                                <hr class="uk-article-divider">
+                    
+                                                <h2 id="commit-file"><a href="#commit-file" class="uk-link-reset">Commit file</a></h2>
+                    
+                                                <p>Committing changes to the repository</p>
+                    
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ git commit</code></td>
+                                                                <td>Save changes to the local repository</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>$ git commit -m</code></td>
+                                                                <td>Save changes to the local repository with a commit messages</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3 id="example"><a href="#example" class="tm-article-subtitle">Example</a></h3>
+                                                    <hr class="uk-article-divider">
+                                                </div>
+
+                                                <h2 id="create-remote-repo"><a href="#create-remote-repo" class="uk-link-reset">Connect remote respository</a></h2>
+                    
+                                                <p>Connect local repository to remote repository on git hosting services</p>
+                    
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ git remote add origin [remote-repository]</code></td>
+                                                                <td>Link local repository to remote repository</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3 id="example"><a href="#example" class="tm-article-subtitle">Example</a></h3>
+
+                                                </div>
+
+                                                <hr class="uk-article-divider">
+
+                                                <h2 id="create-remote-repo"><a href="#create-remote-repo" class="uk-link-reset">Push to respository</a></h2>
+                    
+                                                <p>Push changes to the remote repository using the following command</p>
+                    
+                                                </p><div class="uk-overflow-container">
+                                                    <table class="uk-table uk-table-striped uk-text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Command</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>$ git push -u origin [remote-branch]</code></td>
+                                                                <td>Push changes to the remote repository</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3 id="example"><a href="#example" class="tm-article-subtitle">Example</a></h3>
+                                                </div>
+                                                <hr class="uk-article-divider">
+                                            </article>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            </div>
+
+                            <div class="tm-footer">
+                                <div class="uk-container uk-container-center uk-text-center">
+                    
+                                    <div class="uk-panel">
+                                        <p>Made by <a href="http://www.yootheme.com">YOOtheme</a> with love and caffeine.<br>Licensed under <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+                                        <a href="../index.html"><img src="images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+            </body>
+    </body>
+
+</html>

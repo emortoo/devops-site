@@ -10,7 +10,7 @@
 	
 	<name>devops-web-application</name>
 
-	<description>DevOps pratice website and java Web Project </description>
+	<description>DevOps practice website and java Web Project </description>
 
 	<organization>
 		<name>Lamptech Systems</name>
@@ -90,13 +90,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Lamptech Releases Nexus Repository</name>
-	      <url>http://3.84.49.142:8081/repository/paypal-releases/</url>
+	      <url>http://54.234.50.51:8081/repository/devops-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Lamptech Snapshot Nexus Repository </name>
-	      <url>http://3.84.49.142:8081/repository/paypal-snapshots/</url>
+	      <url>http://54.234.50.51:8081/repository/devops-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

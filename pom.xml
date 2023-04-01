@@ -3,18 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>devops-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.2-SNAPSHOT</version> 
+	<version>0.0.1-SNAPSHOT</version> 
 	
-	<name>maven-web-application</name>
+	<name>devops-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>DevOps pratice website and java Web Project </description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>Lamptech Systems</name>
+		<url>https://lamptech.ai/</url>
 	</organization>
 
 	<properties>
@@ -45,12 +45,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -94,20 +89,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Lamptech Releases Nexus Repository</name>
 	      <url>http://3.84.49.142:8081/repository/paypal-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>Lamptech Snapshot Nexus Repository </name>
 	      <url>http://3.84.49.142:8081/repository/paypal-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>devops</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +122,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/devops-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +135,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>devops-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
